@@ -88,7 +88,7 @@ function App() {
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow">Now in 64 bits</p>
-          <h1>The venture operating system for the agent era.</h1>
+          <h1>The Venture Operating System for the Age of Agents.</h1>
           <p className="hero-copy">
             a64z helps one human launch and operate a portfolio of AI-native
             businesses through agents, collaborators, and a shared Venture of
