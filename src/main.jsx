@@ -2,6 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const protocolLayers = [
   {
     label: "Why",
@@ -82,7 +84,7 @@ function App() {
       </header>
 
       <section className="hero" id="top">
-        <img className="hero-image" src="/assets/a64z-hero.png" alt="" />
+        <img className="hero-image" src={`${baseUrl}assets/a64z-hero.png`} alt="" />
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow">Now in 64 bits</p>
