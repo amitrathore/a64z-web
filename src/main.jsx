@@ -7,35 +7,35 @@ const baseUrl = import.meta.env.BASE_URL;
 const protocolLayers = [
   {
     label: "Why",
-    title: "Thesis and intent",
-    copy: "Define the market belief, customer problem, ambition, constraints, and reason a venture should exist.",
+    title: "Value creation thesis",
+    copy: "Define the investment thesis, market position, growth targets, and the KPIs portfolio leadership commits to for every portfolio company.",
   },
   {
     label: "How",
-    title: "Operating design",
-    copy: "Compose agent roles, human roles, workflows, governance, metrics, capital allocation, and escalation paths.",
+    title: "Ontology & org design",
+    copy: "Build the interconnected ontology binding org structure, roles for human leaders and AI agents, governance, capital, and metrics across the portfolio.",
   },
   {
     label: "What",
-    title: "Decentralized execution",
-    copy: "Ship products, campaigns, services, experiments, content, sales motions, and customer outcomes across ventures.",
+    title: "Ecosystem execution",
+    copy: "Run AI-powered digital org twins and human-AI agent teams that execute go-to-market, operations, and customer engagement inside each company's market ecosystem.",
   },
 ];
 
 const operatingLoops = [
-  "Launch ventures from reusable theses, playbooks, and agent teams.",
-  "Manage each company independently while sharing standards and learning.",
-  "Coordinate cofounders, contractors, partners, employees, and AI agents.",
-  "Track portfolio health, attention, capital, risks, velocity, and upside.",
+  "Model every portfolio company as an interconnected ontology of org structure, roles, workflows, and its surrounding market ecosystem.",
+  "Instantiate AI-powered digital org twins that mirror each company and simulate scaling decisions before they're executed.",
+  "Deploy human leaders and AI agents together to execute against the KPIs leadership sets, across sales, operations, supply chain, and customer ecosystems.",
+  "Close the loop: measure outcomes against KPIs, regenerate the ontology and org twin, and redeploy, continuously, across the entire portfolio.",
 ];
 
 const audiences = [
-  "solo technical founders",
-  "AI-native entrepreneurs",
-  "startup studio operators",
-  "indie hackers",
-  "creators with distribution",
-  "small investment groups",
+  "private equity operating partners",
+  "portfolio company CEOs and executive teams",
+  "deal teams driving value creation",
+  "PE-backed enterprise leadership",
+  "multi-billion dollar portfolio companies",
+  "institutional investment groups",
 ];
 
 const footerGroups = [
@@ -49,12 +49,12 @@ const footerGroups = [
     ],
   },
   {
-    title: "Venture of Agents",
+    title: "Ecosystem of Agents",
     links: [
       { label: "Why", href: "#protocol" },
       { label: "How", href: "#protocol" },
       { label: "What", href: "#protocol" },
-      { label: "Portfolio loops", href: "#system" },
+      { label: "Regeneration loops", href: "#system" },
     ],
   },
   {
@@ -88,11 +88,12 @@ function App() {
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow">Now in 64 bits</p>
-          <h1>The Venture Operating System for the Age of Agents.</h1>
+          <h1>The Portfolio Operating System for Private Equity.</h1>
           <p className="hero-copy">
-            a64z helps one human launch and operate a portfolio of AI-native
-            businesses through agents, collaborators, and a shared Venture of
-            Agents Protocol.
+            a64z gives operating partners and portfolio leadership a shared,
+            interconnected ontology and AI-powered digital org twins to build
+            and scale portfolios of multi-billion dollar enterprises, coordinating
+            human leaders and AI agents across every company's market ecosystem.
           </p>
           <div className="hero-actions">
             <a className="primary-button" href="mailto:hello@a64z.com">
@@ -106,11 +107,11 @@ function App() {
         <div className="hero-signal" aria-label="Platform signals">
           <div>
             <span>1</span>
-            operator
+            operating partner
           </div>
           <div>
-            <span>100+</span>
-            ventures
+            <span>20+</span>
+            portfolio companies
           </div>
           <div>
             <span>24/7</span>
@@ -122,24 +123,27 @@ function App() {
       <section className="positioning">
         <div className="section-kicker">Category</div>
         <div className="positioning-grid">
-          <h2>An AI venture operating system, not another task board.</h2>
+          <h2>A portfolio operating system, not another dashboard.</h2>
           <p>
-            The old startup model assumes every company needs a dedicated team,
-            a narrow operating surface, and years of manual coordination. AI
-            changes the leverage curve. The bottleneck becomes intent,
-            delegation, governance, and learning across many parallel ventures.
+            The old value-creation model assumes every portfolio company runs
+            on its own tools, its own org chart, and years of manual
+            coordination between deal teams and management. AI changes the
+            leverage curve. The bottleneck becomes how fast leadership can
+            model, deploy, and regenerate operating structure across an
+            entire portfolio of already-large enterprises.
           </p>
           <p>
-            a64z gives founders a central command layer for deciding what should
-            exist, why it should exist, how it should operate, and where human
-            judgment belongs.
+            a64z gives PE leadership a central command layer built on
+            interconnected ontologies: a shared model of org structure, market
+            ecosystems, and KPIs that AI-powered digital org twins and human-AI
+            agent teams execute against, company by company.
           </p>
         </div>
       </section>
 
       <section className="protocol" id="protocol">
         <div className="section-heading">
-          <div className="section-kicker">Venture of Agents Protocol</div>
+          <div className="section-kicker">Ecosystem of Agents Protocol</div>
           <h2>Centralize why and how. Decentralize what gets done.</h2>
         </div>
         <div className="protocol-grid">
@@ -156,15 +160,15 @@ function App() {
       <section className="system" id="system">
         <div className="system-copy">
           <div className="section-kicker">Operating Model</div>
-          <h2>One founder can manage a venture network.</h2>
+          <h2>One operating partner can run a multi-billion dollar portfolio.</h2>
           <p>
-            a64z is built for portfolio creation: reusable theses, agent crews,
-            venture scorecards, collaboration boundaries, and management loops
-            that keep every business legible without forcing every business to
-            operate the same way.
+            a64z is built for portfolio-scale value creation: interconnected
+            ontologies, AI-powered digital org twins, human-AI agent teams, and
+            closed-loop regeneration that keep every portfolio company legible
+            to leadership without forcing every company to operate the same way.
           </p>
         </div>
-        <div className="loop-list" aria-label="Operating loops">
+        <div className="loop-list" aria-label="Regeneration loops">
           {operatingLoops.map((loop, index) => (
             <div className="loop-row" key={loop}>
               <span>{String(index + 1).padStart(2, "0")}</span>
@@ -177,24 +181,24 @@ function App() {
       <section className="comparison">
         <div>
           <div className="section-kicker">Differentiation</div>
-          <h2>Between a venture studio, an agent platform, and a fund.</h2>
+          <h2>Between operating partners, value creation consultancies, and an agent platform.</h2>
         </div>
         <div className="comparison-table">
           <div>
-            <span>Venture studios</span>
-            <p>Service-heavy and team-heavy.</p>
+            <span>Operating partners</span>
+            <p>Manual playbooks and spreadsheet-heavy value creation.</p>
           </div>
           <div>
-            <span>VC funds</span>
-            <p>Capital allocation without an operating layer.</p>
+            <span>Value creation consultancies</span>
+            <p>Point-in-time engagements with no persistent ontology.</p>
           </div>
           <div>
-            <span>Agent platforms</span>
-            <p>Workers without a venture-building protocol.</p>
+            <span>Enterprise agent platforms</span>
+            <p>Task automation without a portfolio-wide operating model.</p>
           </div>
           <div>
             <span>a64z</span>
-            <p>Portfolio logic, operating discipline, and agent leverage.</p>
+            <p>Interconnected ontologies, digital org twins, and closed-loop regeneration across the portfolio.</p>
           </div>
         </div>
       </section>
@@ -202,7 +206,7 @@ function App() {
       <section className="fit" id="fit">
         <div className="section-heading">
           <div className="section-kicker">Designed For</div>
-          <h2>High-agency operators compounding venture creation.</h2>
+          <h2>Leadership compounding value across a portfolio.</h2>
         </div>
         <div className="audience-grid">
           {audiences.map((audience) => (
@@ -214,7 +218,7 @@ function App() {
       <section className="cta">
         <div>
           <div className="section-kicker">Early Access</div>
-          <h2>Build from solo founder to venture network.</h2>
+          <h2>Scale from a single portfolio company to full portfolio regeneration.</h2>
         </div>
         <a className="primary-button" href="mailto:hello@a64z.com">
           Request access
@@ -228,8 +232,9 @@ function App() {
             <span>a64z</span>
           </a>
           <p>
-            An AI venture operating system for launching, coordinating, and
-            managing portfolios of agent-powered businesses.
+            An AI-powered operating system for building and scaling private
+            equity portfolios of multi-billion dollar enterprises through
+            interconnected ontologies, digital org twins, and human-AI agent teams.
           </p>
         </div>
         <div className="footer-links" aria-label="Footer navigation">
