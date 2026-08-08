@@ -61,7 +61,6 @@ const footerGroups = [
     title: "Company",
     links: [
       { label: "hello@a64z.com", href: "mailto:hello@a64z.com" },
-      { label: "GitHub", href: "https://github.com/amitrathore/a64z-web" },
       { label: "Request access", href: "mailto:hello@a64z.com" },
     ],
   },
