@@ -83,7 +83,7 @@ function App() {
       </header>
 
       <section className="hero" id="top">
-        <img className="hero-image" src={`${baseUrl}assets/a64z-hero.png`} alt="" />
+        <img className="hero-image" src={`${baseUrl}assets/a64z-hero.svg`} alt="" />
         <div className="hero-shade" />
         <div className="hero-content">
           <p className="eyebrow">Now in 64 bits</p>
